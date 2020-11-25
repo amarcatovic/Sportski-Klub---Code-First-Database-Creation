@@ -22,8 +22,6 @@ namespace Sportski_Klub.Models
         [Required]
         public int CityId { get; set; }
 
-        public ICollection<EventClub> ClubEvents { get; set; }
-
         public ICollection<ClubUser> ClubUsers { get; set; }
 
         public ICollection<UserMembership> UserMemberships { get; set; }
